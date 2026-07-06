@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Hotspot from "@/components/ui/Hotspot";
 
 export default function Hero() {
   return (
@@ -60,6 +61,14 @@ export default function Hero() {
               className="w-full h-auto"
             />
           </motion.div>
+
+          <Hotspot
+            top="83%"
+            left="56%"
+            width="26%"
+            height="5%"
+            onClick={() => alert("RSVP link coming soon!")}
+          />
         </div>
       </div>
     </section>
