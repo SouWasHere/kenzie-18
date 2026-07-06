@@ -2,20 +2,37 @@
 
 interface Props {
   href: string;
-  top: string;
-  left: string;
-  width: string;
-  height: string;
+  x: number;
+  y: number;
+  w: number;
+  h: number;
+  debug?: boolean;
 }
 
-export default function Hotspot({ href, top, left, width, height }: Props) {
+export default function Hotspot({
+  href,
+  x,
+  y,
+  w,
+  h,
+  debug = false,
+}: Props) {
   return (
     <a
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="absolute z-10 rounded-md border border-red-500/40 bg-red-500/10"
-      style={{ top, left, width, height }}
+      className={`absolute z-20 rounded-md transition ${
+        debug
+          ? "border-2 border-red-600 bg-red-500/30"
+          : ""
+      }`}
+      style={{
+        left: `${x}%`,
+        top: `${y}%`,
+        width: `${w}%`,
+        height: `${h}%`,
+      }}
     />
   );
 }

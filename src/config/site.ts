@@ -1,3 +1,11 @@
 export const SITE = {
-  rsvp: "#",
+  links: {
+    venue: "#",
+    rsvp: "#",
+    dressCode: "#",
+    traditions: "#",
+    surprise: "/surprise",
+    altoids: "#",
+    upload: "#",
+  },
 };

@@ -10,7 +10,7 @@ export default function Page6() {
         alt="Page 6"
         width={1080}
         height={1920}
-        className="block w-full h-auto"
+        className="block h-auto w-full"
       />
     </div>
   );
