@@ -1,22 +1,11 @@
 "use client";
 
-import { useState } from "react";
-
-import Envelope from "@/components/sections/Envelope";
-import Hero from "@/components/sections/Hero";
+import Hero from "@/components/hero/Hero";
 
 export default function Home() {
-  const [opened, setOpened] = useState(false);
-
   return (
-    <>
-      {!opened && <Envelope onOpen={() => setOpened(true)} />}
-
-      {opened && (
-        <>
-          <Hero />
-        </>
-      )}
-    </>
+    <main>
+      <Hero />
+    </main>
   );
 }
