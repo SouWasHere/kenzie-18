@@ -17,49 +17,49 @@ export const HOTSPOTS = {
 
   page3: {
     rsvp: {
-      x: 31,
-      y: 72,
+      x: 10,
+      y: 60,
       w: 39,
-      h: 7,
+      h: 10,
     } as Hotspot,
 
     dressCode: {
-      x: 34,
-      y: 82,
-      w: 32,
-      h: 6,
+      x: 55,
+      y: 35,
+      w: 35,
+      h: 15,
     } as Hotspot,
   },
 
   page4: {
     traditions: {
-      x: 20,
-      y: 74,
-      w: 28,
-      h: 8,
+      x: 15,
+      y: 37,
+      w: 55,
+      h: 25,
     } as Hotspot,
 
     surprise: {
       x: 52,
       y: 74,
-      w: 28,
-      h: 8,
+      w: 30,
+      h: 10,
     } as Hotspot,
   },
 
   page5: {
     altoids: {
-      x: 18,
-      y: 73,
-      w: 28,
-      h: 8,
+      x: 43,
+      y: 79,
+      w: 30,
+      h: 15,
     } as Hotspot,
 
     upload: {
-      x: 53,
-      y: 73,
-      w: 28,
-      h: 8,
+      x: 65,
+      y: 48,
+      w: 24,
+      h: 15,
     } as Hotspot,
   },
 };

@@ -18,8 +18,8 @@ export default function Page4() {
         className="block h-auto w-full"
       />
 
-      <Hotspot href={SITE.links.traditions} x={hotspots.traditions.x} y={hotspots.traditions.y} w={hotspots.traditions.w} h={hotspots.traditions.h} />
-      <Hotspot href={SITE.links.surprise} x={hotspots.surprise.x} y={hotspots.surprise.y} w={hotspots.surprise.w} h={hotspots.surprise.h} />
+      <Hotspot href={SITE.links.traditions} x={hotspots.traditions.x} y={hotspots.traditions.y} w={hotspots.traditions.w} h={hotspots.traditions.h} debug />
+      <Hotspot href={SITE.links.surprise} x={hotspots.surprise.x} y={hotspots.surprise.y} w={hotspots.surprise.w} h={hotspots.surprise.h} debug />
     </div>
   );
 }

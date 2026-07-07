@@ -20,12 +20,12 @@ export default function Hotspot({
   return (
     <a
       href={href}
-      target="_blank"
+      target={href.startsWith("/") ? "_self" : "_blank"}
       rel="noopener noreferrer"
-      className={`absolute z-20 rounded-md transition ${
+      className={`absolute z-50 rounded-md transition-all ${
         debug
-          ? "border-2 border-red-600 bg-red-500/30"
-          : ""
+          ? "border-2 border-red-500 bg-red-500/30 hover:bg-red-500/50"
+          : "border-2 border-transparent bg-transparent"
       }`}
       style={{
         left: `${x}%`,

@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Hotspot from "@/components/ui/Hotspot";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -69,6 +70,13 @@ export default function Hero() {
             height="5%"
             onClick={() => alert("RSVP link coming soon!")}
           />
+
+          <Link
+            href="/gift-guide"
+            className="absolute bottom-8 left-1/2 -translate-x-1/2 px-6 py-3 bg-yellow-500/40 border-2 border-yellow-500 rounded-lg font-semibold text-[#8C9BAA] hover:bg-yellow-500/60 transition-all duration-200 z-30"
+          >
+            View Gift Guide
+          </Link>
         </div>
       </div>
     </section>

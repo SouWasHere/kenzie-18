@@ -26,7 +26,7 @@ export default function Hotspot({
         boxShadow: "0 0 20px rgba(255,255,255,.35)",
       }}
       whileTap={{ scale: 0.98 }}
-      className="absolute rounded-lg bg-red-500/20 border border-red-500 cursor-pointer"
+      className="absolute rounded-lg bg-yellow-500/40 border-2 border-yellow-500 cursor-pointer"
       style={{
         top,
         left,
