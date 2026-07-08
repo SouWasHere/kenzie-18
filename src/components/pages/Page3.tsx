@@ -18,8 +18,8 @@ export default function Page3() {
         className="block h-auto w-full"
       />
 
-      <Hotspot href={SITE.links.rsvp} x={hotspots.rsvp.x} y={hotspots.rsvp.y} w={hotspots.rsvp.w} h={hotspots.rsvp.h} debug />
-      <Hotspot href={SITE.links.dressCode} x={hotspots.dressCode.x} y={hotspots.dressCode.y} w={hotspots.dressCode.w} h={hotspots.dressCode.h} debug />
+      <Hotspot href={SITE.links.rsvp} x={hotspots.rsvp.x} y={hotspots.rsvp.y} w={hotspots.rsvp.w} h={hotspots.rsvp.h}  />
+      <Hotspot href={SITE.links.dressCode} x={hotspots.dressCode.x} y={hotspots.dressCode.y} w={hotspots.dressCode.w} h={hotspots.dressCode.h}  />
     </div>
   );
 }
