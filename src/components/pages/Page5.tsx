@@ -18,8 +18,9 @@ export default function Page5() {
         className="block h-auto w-full"
       />
 
-      <Hotspot href={SITE.links.altoids} x={hotspots.altoids.x} y={hotspots.altoids.y} w={hotspots.altoids.w} h={hotspots.altoids.h} />
-      <Hotspot href={SITE.links.upload} x={hotspots.upload.x} y={hotspots.upload.y} w={hotspots.upload.w} h={hotspots.upload.h} />
+      <Hotspot href={SITE.links.altoids} x={hotspots.altoids.x} y={hotspots.altoids.y} w={hotspots.altoids.w} h={hotspots.altoids.h}  />
+      <Hotspot href={SITE.links.upload} x={hotspots.upload.x} y={hotspots.upload.y} w={hotspots.upload.w} h={hotspots.upload.h}  />
+      <Hotspot href={SITE.links.cd} x={hotspots.cd.x} y={hotspots.cd.y} w={hotspots.cd.w} h={hotspots.cd.h} />
     </div>
   );
 }

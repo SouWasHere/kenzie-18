@@ -8,5 +8,6 @@ export const SITE = {
     altoids: "https://jodysavethedate.my.canva.site/my-favourite-cookies",
     upload: "https://drive.google.com/drive/folders/1hMI9bIVQIAlok2wregOeQOkuU6uDRSre?usp=sharing",
     giftGuide: "https://heyzine.com/flip-book/22788d63b2.html",
+    cd:"https://jodysavethedate.my.canva.site/kenzii"
   },
 };

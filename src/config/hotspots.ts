@@ -49,8 +49,8 @@ export const HOTSPOTS = {
 
   page5: {
     altoids: {
-      x: 43,
-      y: 79,
+      x: 10,
+      y: 70,
       w: 30,
       h: 15,
     } as Hotspot,
@@ -59,6 +59,13 @@ export const HOTSPOTS = {
       x: 65,
       y: 48,
       w: 24,
+      h: 15,
+    } as Hotspot,
+
+    cd: {
+      x: 45,
+      y: 80,
+      w: 30,
       h: 15,
     } as Hotspot,
   },

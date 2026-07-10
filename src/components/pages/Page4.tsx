@@ -19,7 +19,8 @@ export default function Page4() {
       />
 
       <Hotspot href={SITE.links.traditions} x={hotspots.traditions.x} y={hotspots.traditions.y} w={hotspots.traditions.w} h={hotspots.traditions.h} />
-      <Hotspot href={SITE.links.surprise} x={hotspots.surprise.x} y={hotspots.surprise.y} w={hotspots.surprise.w} h={hotspots.surprise.h} />
+      <Hotspot href={SITE.links.surprise} x={hotspots.surprise.x} y={hotspots.surprise.y} w={hotspots.surprise.w} h={hotspots.surprise.h}  />
+      
     </div>
   );
 }
